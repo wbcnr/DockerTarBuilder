@@ -16,4 +16,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-      - run: ping www.google.com
+      - run: ping -c 4 www.google.com
